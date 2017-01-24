@@ -1,0 +1,13 @@
+group 'io.gitlab.arturbosch'
+version '1.0'
+
+apply plugin: 'groovy'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:2.4.8'
+	compile 'org.gitlab:java-gitlab-api:1.2.7'
+}
